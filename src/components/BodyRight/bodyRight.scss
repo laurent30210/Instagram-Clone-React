@@ -1,0 +1,18 @@
+.bodyRight {
+  flex: 1 1 50%;
+  max-width: 400px;
+}
+.proposalUsers {
+  color: #666;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.infos, .copyright {
+  margin: 1rem 0;
+  color: rgba(153, 153, 153, 0.6);
+  word-wrap: break-word;
+}
+.copyright {
+  text-transform: uppercase;
+  font-size: .7em;
+}

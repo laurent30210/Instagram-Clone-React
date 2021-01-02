@@ -1,0 +1,81 @@
+.bodyLeft {
+  flex: 0 1 50%;
+}
+.slideSubscribers {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: .3em;
+  border-radius: 3px;
+}
+.subscribers {
+  position: relative;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.subscriber {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90px;
+  min-width: 75px;
+  background-color: #fff;
+  margin: .2rem;
+  cursor: pointer;
+  &__avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid orangered;
+    overflow: hidden;
+    &__img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  &__name {
+    margin-top: .5rem;
+    font-size: .8em;
+  }
+}
+.arrow {
+  position: absolute;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #ccc;
+  text-align: center;
+  transform: translateY(-50%);
+  top: 50%;
+  opacity: .8;
+  cursor: pointer;
+}
+.arrowRight {
+  right: 1%;
+}
+.arrowLeft {
+  left: 1%;
+  line-height: 1px;
+}
+.posts {
+  width: 100%;
+  max-width: 500px;
+  margin: .3em;
+}
+.root {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+.media {
+  height: 0;
+  padding-top: 56.25%, // 16:9
+}
+.expand {
+  transform: rotate(0deg);
+  margin-left: auto;
+}
+.expandOpen {
+  transform: rotate(180deg);
+}

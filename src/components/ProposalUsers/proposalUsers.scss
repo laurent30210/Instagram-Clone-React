@@ -1,0 +1,39 @@
+.proposalUsers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.proposalUser {
+  color: #888;
+  display: flex;
+  align-items: center;
+  padding: .4rem 1.5rem;
+  &__avatar {
+    cursor: pointer;
+    margin-left: 10px;
+    &__img {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+    }
+  } 
+  &__name {
+    margin-left: 1rem;
+    &__content {
+      color: #000;
+    }
+    &__link {
+      font-size: .7em;
+    }
+  }
+}
+.userLink {
+  color: rgb(0, 125, 197);
+  font-size: .7em;
+  font-weight: 600;
+  text-align: right;
+}

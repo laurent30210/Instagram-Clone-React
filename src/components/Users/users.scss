@@ -1,0 +1,29 @@
+.users {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.user {
+  color: #888;
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+  &__avatar {
+    cursor: pointer;
+    margin-left: 10px;
+    &__img {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+    }
+  } 
+  &__name {
+    margin-left: 1rem;
+  }
+}
+.userLink {
+  color: rgb(0, 125, 197);
+  font-size: .7em;
+  font-weight: 600;
+}
